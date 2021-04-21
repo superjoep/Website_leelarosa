@@ -58,8 +58,14 @@
   position: fixed;
   top: 0;
   width: 98%;
+  z-index: 1;
 }
-
+.sticky2 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
 #TourData{
   height: 100vh;
   background: url(img/gradient_2.png) no-repeat center center ; 
@@ -69,7 +75,8 @@
   background-size: cover;
  margin: -1%;
  margin-right: -8px;
- margin-top: 4%;
+ margin-top: 9%;
+ z-index: -1;
 }
 #Memories{
   height: 100vh;
@@ -108,20 +115,32 @@ html {
   margin-right: auto;
   margin-top: 3%;
   font-family: Galleryfont;
+  z-index: 3;
+}
+.button :hover{
+  background-color:black;
+  color: #FFFBE7;
 }
 .button5 {border-radius: 50%;}
+
 .button6 {border-radius: 50%;
-margin-top: 50%;
+margin-top: 10%;
 
 }
+.button7 {border-radius: 50%;
+  margin-top: 10%;
+  margin-left: 30px;
+  }
 .object {
   position: absolute;
 }
 .van {
-  top: 45%;
-  left: 31%;
-  padding-right: 600px;
- 
+  top: -35%;
+  left: 26%;
+  padding-right: 200px;
+ width: 650px;
+height: 650px;
+
 }
 
 #axis:hover .move-left {
@@ -145,6 +164,7 @@ margin-top: 50%;
   -o-transition: all 0.5s ease-out; 
   margin-top: 20%;
   margin-left: 7%;
+  z-index: 5;
 }
 .tourdatatitle{
   font-family: Galleryfont;
@@ -184,7 +204,7 @@ margin-top: 50%;
   flex-direction: row;
   display: flex;
   justify-content:center;
-  margin-top:12%;
+  
 }
 #linkfooter{
   font-family: Railway;
@@ -214,6 +234,7 @@ body {
   margin: 0;
   padding: 0;
   background: #FFFBE7;
+  overflow-x: hidden;
 }
 
 /* To put the header in the center of 
@@ -230,6 +251,7 @@ center, You can add any background image */
   background-size: cover;
   margin: -1%;
   margin-right: -8px;
+  z-index: -1;
 }
 
 /* Box shadow provides shadow effect 
@@ -243,4 +265,6 @@ container. The box-sizing property is used to include
 the padding and border in an element */
 section {
   position: relative;
+  top: 100vh;
+  margin-top: 35%;
 }
