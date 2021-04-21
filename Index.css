@@ -1,0 +1,246 @@
+@font-face {
+  font-family: Galleryfont;
+  src: url(fonts/GalleryModern.otf);
+}
+@font-face {
+  font-family: Railway;
+  src: url(fonts/Raleway-Light.ttf);
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+  font-family: Galleryfont;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.navbutton{
+  margin-top: 10%;
+  color: #551A8B;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.flex-container2 {
+  flex-direction: column;
+  text-align: right;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 98%;
+}
+
+#TourData{
+  height: 100vh;
+  background: url(img/gradient_2.png) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ margin: -1%;
+ margin-right: -8px;
+ margin-top: 4%;
+}
+#Memories{
+  height: 100vh;
+}
+#Contact{
+  height: 100vh;
+  background-color: black;
+  background: url(img/Background-Footer.png)  center center ; 
+  margin: -1%;
+  margin-right: -8px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+#logo_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10%;
+  width: 400px;
+  height: 300px;
+}
+.button {
+  background-color:transparent;
+  border: 2px solid black;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  font-family: Galleryfont;
+}
+.button5 {border-radius: 50%;}
+.button6 {border-radius: 50%;
+margin-top: 50%;
+
+}
+.object {
+  position: absolute;
+}
+.van {
+  top: 45%;
+  left: 31%;
+  padding-right: 600px;
+ 
+}
+
+#axis:hover .move-left {
+  transform: translate(-350px,0);
+  -webkit-transform: translate(-350px,0); 
+  -o-transform: translate(-350px,0); 
+  -moz-transform: translate(-350px,0); 
+  
+}
+
+.floated {
+  float:left;
+  margin-right:5px;
+}
+
+.object {
+  position: absolute;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out; 
+  -moz-transition: all 0.5s ease-out; 
+  -o-transition: all 0.5s ease-out; 
+  margin-top: 20%;
+  margin-left: 7%;
+}
+.tourdatatitle{
+  font-family: Galleryfont;
+  font-size: 130px;
+  color: white;
+}
+.footertitle{
+  font-family: Galleryfont;
+  font-size: 130px;
+  color: white;
+ 
+}
+.tourbox{
+  width: 80%;
+  height: 70%;
+  align-self: center;
+  background: url(img/tourdata2.png) no-repeat center center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.flex-container {
+  flex-direction: column;
+  display: flex;
+  color: white;
+  text-align: left;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+.flex-container4 {
+  flex-direction: row;
+  display: flex;
+  text-align: center;
+}
+.flex-container5 {
+  flex-direction: row;
+  display: flex;
+  justify-content:center;
+  margin-top:12%;
+}
+#linkfooter{
+  font-family: Railway;
+  color: white;
+  font-size: 60px;
+  text-decoration: none;
+}
+#Titlefooter{
+  background-color:transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  display: block;
+  margin-top: 3%;
+  font-family: Galleryfont;
+  font-size: 90px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+}
+    
+body {
+  margin: 0;
+  padding: 0;
+  background: #FFFBE7;
+}
+
+/* To put the header in the center of 
+the page we used justify-content and 
+align-items and set their value as
+center, You can add any background image */
+.header-bg {
+  height: 100vh;
+  background: url(img/gradient_1.png) no-repeat center center ; 
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: -1%;
+  margin-right: -8px;
+}
+
+/* Box shadow provides shadow effect 
+to the element */
+
+
+/* Set "position:relative" then section can move
+from its original position, by using position:relative,
+the position of the section is not dependent on the
+container. The box-sizing property is used to include
+the padding and border in an element */
+section {
+  position: relative;
+}
