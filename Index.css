@@ -53,12 +53,14 @@
 .flex-container2 {
   flex-direction: column;
   text-align: right;
+  margin-left: 95%;
+  
 }
 .sticky {
   position: fixed;
   top: 0;
-  width: 98%;
   z-index: 1;
+  
 }
 .sticky2 {
   position: fixed;
@@ -117,7 +119,7 @@ html {
   font-family: Galleryfont;
   z-index: 3;
 }
-.button :hover{
+.button:hover{
   background-color:black;
   color: #FFFBE7;
 }
@@ -199,6 +201,7 @@ height: 650px;
   flex-direction: row;
   display: flex;
   text-align: center;
+  margin-left: 8%;
 }
 .flex-container5 {
   flex-direction: row;
@@ -209,8 +212,12 @@ height: 650px;
 #linkfooter{
   font-family: Railway;
   color: white;
-  font-size: 60px;
+  font-size: 40px;
   text-decoration: none;
+  padding-top: 5%;
+}
+#linkfooter:hover{
+  color: gray;
 }
 #Titlefooter{
   background-color:transparent;
@@ -254,15 +261,6 @@ center, You can add any background image */
   z-index: -1;
 }
 
-/* Box shadow provides shadow effect 
-to the element */
-
-
-/* Set "position:relative" then section can move
-from its original position, by using position:relative,
-the position of the section is not dependent on the
-container. The box-sizing property is used to include
-the padding and border in an element */
 section {
   position: relative;
   top: 100vh;
