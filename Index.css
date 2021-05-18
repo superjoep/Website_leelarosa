@@ -123,7 +123,27 @@ html {
   background-color:black;
   color: #FFFBE7;
 }
-.button5 {border-radius: 50%;}
+.button5 {border-radius: 50%;
+  background-color:transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  font-family: Galleryfont;
+  z-index: 3;
+}
+.button5:hover{
+  background-color:black;
+  color: #FFFBE7;
+}
 
 .button6 {border-radius: 50%;
 margin-top: 10%;
@@ -173,6 +193,12 @@ height: 650px;
   font-size: 130px;
   color: white;
 }
+.MemorieTitle{
+  margin-top: 1%;
+  font-family: Galleryfont;
+  font-size: 130px;
+  color: black;
+}
 .footertitle{
   font-family: Galleryfont;
   font-size: 130px;
@@ -189,6 +215,7 @@ height: 650px;
   margin-right: auto;
   
 }
+
 .flex-container {
   flex-direction: column;
   display: flex;
@@ -201,7 +228,7 @@ height: 650px;
   flex-direction: row;
   display: flex;
   text-align: center;
-  margin-left: 8%;
+  margin-left: 10%;
 }
 .flex-container5 {
   flex-direction: row;
@@ -212,7 +239,7 @@ height: 650px;
 #linkfooter{
   font-family: Railway;
   color: white;
-  font-size: 40px;
+  font-size: 35px;
   text-decoration: none;
   padding-top: 5%;
 }
@@ -231,7 +258,7 @@ height: 650px;
   display: block;
   margin-top: 3%;
   font-family: Galleryfont;
-  font-size: 90px;
+  font-size: 60px;
   text-align: center;
   display: inline-block;
   border-radius: 50%;
@@ -250,7 +277,6 @@ align-items and set their value as
 center, You can add any background image */
 .header-bg {
   height: 100vh;
-  background: url(img/gradient_1.png) no-repeat center center ; 
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -265,4 +291,12 @@ section {
   position: relative;
   top: 100vh;
   margin-top: 35%;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;
 }

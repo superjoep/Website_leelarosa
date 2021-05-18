@@ -1,0 +1,100 @@
+.MemoriesBox .tape img
+{
+    width: 8%;
+    transform: rotate(-20deg);  
+    margin-left: 160px;
+    margin-top: 79px;
+    position: absolute
+ 
+    }    
+.MemoriesBox a img
+{
+    width: 350px;
+    height: auto;
+margin-left: 200px;
+margin-top: 0%;
+margin-bottom: -7%;
+transform: rotate(-5deg);
+position: relative
+
+}
+
+.MemoriesBox .audiobar
+{
+    margin-left: 30%;
+    position: absolute;
+  
+}
+#imga{
+    z-index: 1;
+}
+#imgb{
+    z-index: 25;
+    margin-left: 15%;
+    margin-top: 1%;
+}
+#imgc{
+    z-index: 0.1;
+    margin-top: -30%;
+}
+#mp3player
+{
+    z-index: 11;
+}
+.MemoriesBox img 
+{
+    margin-left: 35%;
+    width: 15%;
+    height: auto;
+    position: relative;
+    margin-top: -40%;
+    transform: rotate(5deg);
+}
+.polaroid
+{
+    width: 67%;
+    margin-top: 8%;
+    margin-left: 25%;
+    transform: rotate(4deg);
+}
+.paper
+{
+    margin-top: -18%;
+    width: 150%;
+    margin-left: -10%;
+    transform: rotate(-6deg);
+}
+audio
+{
+    margin-left: 600px;
+   margin-top: 100px;
+   position: absolute;
+}
+.cassette
+{
+    margin-top: 3%;
+margin-left: 180px;
+    width: 140%;
+  transform: rotate(-5deg);
+}
+.vhssticker
+{
+    margin-left: 16%;
+    margin-top: 10%;
+    width: 120%;
+    position: absolute;
+    transform: rotate(-2deg);
+}
+.studiofoto
+{
+    margin-top: 10%;
+    transform: rotate(-10deg);
+    position: absolute;
+    width: 80%;
+    z-index: 20;
+   
+}
+.MemoriesBox img .studiofoto
+{
+    border-radius: 50px;
+}
